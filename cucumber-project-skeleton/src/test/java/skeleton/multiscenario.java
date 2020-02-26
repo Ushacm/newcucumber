@@ -13,7 +13,7 @@ public class multiscenario {
 	WebDriver driver;
 	@Given("TestMeApp is opened")
 	public void testmeapp_is_opened() {
-		System.setProperty("webdriver.chrome.driver","C:\\chromedriver_win32\\chromedriver.exe");
+		System.setProperty("webdriver.chrome.driver","C:\\New folder\\downloads\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://10.232.237.143/TestMeApp/fetchcat.htm");
 		driver.findElement(By.linkText("SignIn")).click();
